@@ -35,6 +35,6 @@ If the current behavior of the user selector does not perfectly fit your needs, 
 
 ![alt tag](https://raw.githubusercontent.com/Sitefinity-SDK/related-users-field-control/master/ReadmeResources/flat-selector-settings.PNG)
 
-Moreover, you can always further extend this field control to better suit your needs.
+Moreover, you can always further extend this field control, through its C# and JavaScript code, to better suit your needs.
 
 
