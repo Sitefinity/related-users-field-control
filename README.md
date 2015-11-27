@@ -23,3 +23,18 @@ The only thing you need for this field control to work is a Sitefinity web appli
 Final setup visual:
 
 ![alt tag](https://raw.githubusercontent.com/Sitefinity-SDK/related-users-field-control/master/ReadmeResources/related-users-module-builder.PNG)
+
+Now if you go to your content module and add/edit an item, you will see the RelatedUsers field:
+
+![alt tag](https://raw.githubusercontent.com/Sitefinity-SDK/related-users-field-control/master/ReadmeResources/related-users-content-module-1.PNG)
+
+![alt tag](https://raw.githubusercontent.com/Sitefinity-SDK/related-users-field-control/master/ReadmeResources/related-users-content-module-2.PNG)
+
+### Tweaks & Extensibility 
+If the current behavior of the user selector does not fit your needs, you can additionally tweak a lot of it. The user selector is based on the Sitefinity `FlatSelector`, which means that all of the `FlatSelector` options can be changed. You can do this in the template file of the user selector field `RelatedUsersField.ascx`, through the attributes of the `FlatSelector` control. Popular tweaks for this control are: `AllowPaging`, `PageSize`, `AllowMultipleSelection`, `AllowSearching`, `ShowProvidersList`, etc. See the following screenshot of the current configuration:
+
+![alt tag](https://raw.githubusercontent.com/Sitefinity-SDK/related-users-field-control/master/ReadmeResources/flat-selector-settings.PNG)
+
+Moreover, you can always further extend this field control to better suit your needs.
+
+
