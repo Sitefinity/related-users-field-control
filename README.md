@@ -1,4 +1,7 @@
 # related-users-field-control
+
+### This repository is not automatically upgraded to latest Sitefintiy version. The repository is monitored for pull requests and fixes. The latest official version of Sitefinity that supports this sample is 8.2. Be aware that using a higher version could cause unexpected behavior. If you successfully upgrade the example to a greater version, please share your work with the community by submitting your changes via pull request.
+
 If you ever wanted to relate Sitefinity CMS users to one of your Dynamic Content Modules, you probably noticed that there is not an out-of-the-box way to do that. Luckily, Sitefinity CMS is designed for extensibility from the ground up, and this relation is quite easy to achieve.
 
 The solution is based on a field control which lets you select one or many user which are going to be related to your dynamic content items. On the dynamic content side, the users are stored as an array of user identifiers (Guid[]). Both of these functionalities, the custom filed control and the array of GUIDs field have been supported by Sitefinity CMS for a long time. Now we are just using their power to create a useful feature which many of you have been asking for or trying to do.
