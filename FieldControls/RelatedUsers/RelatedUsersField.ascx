@@ -23,7 +23,7 @@
         ShowHeader="true">
         <DataMembers>
             <sf:DataMemberInfo runat="server" Name="Username" IsExtendedSearchField="true" HeaderText='Username'>
-                <strong>{{UserName}}</strong>
+                <strong>{{Email}}</strong>
             </sf:DataMemberInfo>
             <sf:DataMemberInfo runat="server" Name="DisplayName" HeaderText='Name'>
                 <span>{{DisplayName}}</span>
