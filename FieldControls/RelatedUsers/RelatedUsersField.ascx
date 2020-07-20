@@ -46,7 +46,7 @@
 <ul id="selectedItemsList" data-template="ul-template-RelatedUsers" data-bind="source: items" runat="server" class="sfCategoriesList"></ul>
 <script id="ul-template-RelatedUsers" type="text/x-kendo-template">
     <li>
-        <span data-bind="text: UserName, attr: {data-id: UserID}"> </span>
+        <span data-bind="text: Email, attr: {data-id: UserID}"> </span>
         <a class="remove sfRemoveBtn">Remove</a>
     </li>
 </script>
